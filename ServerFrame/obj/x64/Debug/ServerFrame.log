@@ -1,0 +1,8 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.253.130'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  kernel.cpp
+  Linking objects
+  ServerFrame.vcxproj -> E:\Study\Itcast\work\GameFrame\ServerFrame\ServerFrame\bin\x64\Debug\ServerFrame.out

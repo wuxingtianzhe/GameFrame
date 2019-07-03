@@ -1,0 +1,1 @@
+g++ -o "/home/testuser/projects/ServerFrame/bin/x64/Debug/ServerFrame.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/testuser/projects/ServerFrame/obj/x64/Debug/kernel.o /home/testuser/projects/ServerFrame/obj/x64/Debug/main.o /home/testuser/projects/ServerFrame/obj/x64/Debug/stdin_channel.o
