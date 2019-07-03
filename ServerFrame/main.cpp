@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 {
 	kernel ker;
 	stdin_channel stdin;
-	ker.setChannel(&stdin);
+	ker.AddChannel(&stdin);
 	ker.run();
 
 	return EXIT_SUCCESS;
