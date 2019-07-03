@@ -14,12 +14,16 @@
 #include<arpa/inet.h>
 #include"kernel.h"
 #include"stdin_channel.h"
+#include"stdout_channel.h"
 int main(int argc, char *argv[])
 {
-	kernel ker;
-	stdin_channel stdin;
-	ker.AddChannel(&stdin);
-	ker.run();
+	stdin_channel in_channel;
+	stdout_channel out_channel;
+	in_channel.m_out = &out_channel;
+	kernel ker=kernel::getInstance();
+	ker.AddChannel(&in_channel);
+	ker.AddChannel(&out_channel);
 
+	ker.run();
 	return EXIT_SUCCESS;
 }

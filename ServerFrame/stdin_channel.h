@@ -1,10 +1,13 @@
 ﻿#pragma once
 #include<iostream>
 #include"Ichannel.h"
+#include"stdout_channel.h"
 using namespace std;
 class stdin_channel:public Ichannel
 {
+	
 public:
+	stdout_channel* m_out = NULL;
 	stdin_channel();
 	string readfd();
 	virtual ~stdin_channel();

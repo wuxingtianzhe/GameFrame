@@ -3,10 +3,7 @@
   Validating architecture
   Starting remote build
   Compiling sources:
-  Ichannel.cpp
-  kernel.cpp
   main.cpp
-  stdin_channel.cpp
   stdout_channel.cpp
   Linking objects
   ServerFrame.vcxproj -> E:\Study\Itcast\work\GameFrame\ServerFrame\ServerFrame\bin\x64\Debug\ServerFrame.out
